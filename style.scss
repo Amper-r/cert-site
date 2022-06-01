@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.section-about-inf{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #131313;
+    border-radius: 13px;
+    .logo{
+        width: 500px;
+        height: 370px;
+    }
+    .links-item{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        a{
+            font-size: 16px;
+            color: #222;
+            text-decoration: underline;
+            margin: 5px;
+            text-align: center;
+        }
+    }
+    a:hover{
+        color:rgb(255, 68, 68);
+    }
+}
+@media screen and (max-width:800px){
+    .download-inf{
+        padding-left: 3rem;
+    }
+
+}
+@media screen and (max-width:600px){
+       .logo{
+        width: 200px;
+        height: 170px;
+        align-items: right;
+       }
+       .download-inf{
+           align-items: center;
+           padding-left: 15rem;
+       }
+}
+@media screen and (max-width:400px){
+    .download-inf{
+        align-items: center;
+        padding-left: 25rem;
+    }
+}
+
+.posts{
+    background: #131313;
+    word-break: break-all;
+}
+p{
+    max-width: 500px;
+    color: #555;
+}
+a{
+    text-decoration: none;
+}
